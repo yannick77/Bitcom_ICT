@@ -1,6 +1,7 @@
 body{
     font-family: 'Raleway', sans-serif;
-    width: 75%;
+   max-width: 70%;
+    min-width: 50%;
     margin: auto;
 
 }
@@ -27,7 +28,18 @@ h1, h2, h3, h4 {
     padding: 5%;
 }
 
+section:nth-child(even){
+    background-color: seashell;
+}
+section:nth-child(odd){
+    background-color: #f9f9f9;
+}
+
 #hobbies{
     margin: auto;
 
+}
+.interestText{
+    text-align: center;
+    font-weight: bold;
 }
