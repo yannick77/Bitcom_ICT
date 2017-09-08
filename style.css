@@ -2,8 +2,32 @@ body{
     font-family: 'Raleway', sans-serif;
     width: 75%;
     margin: auto;
+
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    text-align: center;
 }
 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myImage{
+    width: 33%;
+}
+.text{
+    width: 66%;
+
+}
+.innerText{
+    padding: 3%;
+}
+#passport, #university, #work, #courses, #certificate {
+    padding: 5%;
+}
+
+#hobbies{
+    margin: auto;
+
+}
